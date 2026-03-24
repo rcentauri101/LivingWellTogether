@@ -1,7 +1,6 @@
 import { defineConfig } from "astro/config";
 
 export default defineConfig({
-  site: "https://ramaattaluri.github.io",
-  base: "/MealPlan",
+  site: "https://livingwelltogether.github.io",
   output: "static"
 });
