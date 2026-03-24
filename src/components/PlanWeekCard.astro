@@ -1,0 +1,64 @@
+---
+interface Plan {
+  week: number;
+  startDate: string;
+  theme: string;
+  breakfast: string[];
+  lunch: string[];
+  dinner: string[];
+  notes: string;
+}
+
+interface MealMap {
+  [key: string]: { name: string };
+}
+
+interface Props {
+  plan: Plan;
+  mealMap: MealMap;
+}
+
+const { plan, mealMap } = Astro.props;
+const days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+
+const lookup = (id: string) => mealMap[id]?.name ?? id;
+---
+
+<section class="plan-card panel">
+  <div class="plan-header">
+    <div>
+      <p class="eyebrow">Week {plan.week}</p>
+      <h2>{plan.theme}</h2>
+    </div>
+    <p class="plan-date">Starts {plan.startDate}</p>
+  </div>
+
+  <div class="plan-grid">
+    <div class="plan-column">
+      <h3>Breakfast</h3>
+      <ul>
+        {plan.breakfast.map((mealId, index) => (
+          <li><strong>{days[index]}:</strong> {lookup(mealId)}</li>
+        ))}
+      </ul>
+    </div>
+    <div class="plan-column">
+      <h3>Lunch</h3>
+      <ul>
+        {plan.lunch.map((mealId, index) => (
+          <li><strong>{days[index]}:</strong> {lookup(mealId)}</li>
+        ))}
+      </ul>
+    </div>
+    <div class="plan-column">
+      <h3>Dinner</h3>
+      <ul>
+        {plan.dinner.map((mealId, index) => (
+          <li><strong>{days[index]}:</strong> {lookup(mealId)}</li>
+        ))}
+      </ul>
+    </div>
+  </div>
+
+  <p class="plan-notes">{plan.notes}</p>
+</section>

@@ -1,0 +1,121 @@
+<svg width="1440" height="2200" viewBox="0 0 1440 2200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="2200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6EFE4"/>
+      <stop offset="1" stop-color="#F9F5EE"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(220 140) rotate(38) scale(360 240)">
+      <stop stop-color="#F0BB62" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#F0BB62" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1200 180) rotate(160) scale(300 220)">
+      <stop stop-color="#3F6B4F" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#3F6B4F" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="30" flood-color="#45361B" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="1440" height="2200" fill="url(#bg)"/>
+  <rect width="1440" height="2200" fill="url(#glowA)"/>
+  <rect width="1440" height="2200" fill="url(#glowB)"/>
+
+  <rect x="120" y="40" width="1200" height="92" rx="46" fill="rgba(255,248,240,0.82)" stroke="rgba(35,49,39,0.12)" filter="url(#shadow)"/>
+  <text x="170" y="94" fill="#233127" font-size="24" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="800" letter-spacing="2">BETTER TOGETHER</text>
+  <text x="895" y="94" fill="#5D6A5D" font-size="24" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="600">Home</text>
+  <text x="980" y="94" fill="#5D6A5D" font-size="24" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="600">Meals</text>
+  <text x="1068" y="94" fill="#5D6A5D" font-size="24" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="600">Weekly Plan</text>
+  <text x="1228" y="94" fill="#5D6A5D" font-size="24" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="600">Health Tips</text>
+
+  <rect x="120" y="170" width="1200" height="410" rx="28" fill="rgba(255,250,243,0.92)" stroke="rgba(35,49,39,0.12)" filter="url(#shadow)"/>
+  <text x="180" y="240" fill="#D06A3D" font-size="18" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="800" letter-spacing="3">90-DAY WELLNESS JOURNEY</text>
+  <text x="180" y="320" fill="#233127" font-size="74" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="800">Eat well, plan ahead,</text>
+  <text x="180" y="392" fill="#233127" font-size="74" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="800">and keep each other</text>
+  <text x="180" y="464" fill="#233127" font-size="74" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="800">moving.</text>
+  <text x="180" y="525" fill="#5D6A5D" font-size="29" font-family="Avenir Next, Segoe UI, sans-serif">A shared static site for meal planning, friendly accountability,</text>
+  <text x="180" y="565" fill="#5D6A5D" font-size="29" font-family="Avenir Next, Segoe UI, sans-serif">and practical health tips over the next three months.</text>
+
+  <rect x="900" y="230" width="340" height="90" rx="18" fill="url(#bg)" stroke="rgba(35,49,39,0.10)"/>
+  <rect x="900" y="340" width="340" height="90" rx="18" fill="url(#bg)" stroke="rgba(35,49,39,0.10)"/>
+  <rect x="900" y="450" width="340" height="90" rx="18" fill="url(#bg)" stroke="rgba(35,49,39,0.10)"/>
+  <text x="930" y="286" fill="#233127" font-size="46" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="800">12</text>
+  <text x="1010" y="286" fill="#5D6A5D" font-size="24" font-family="Avenir Next, Segoe UI, sans-serif">weeks together</text>
+  <text x="930" y="396" fill="#233127" font-size="46" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="800">3</text>
+  <text x="1010" y="396" fill="#5D6A5D" font-size="24" font-family="Avenir Next, Segoe UI, sans-serif">meals each day</text>
+  <text x="930" y="506" fill="#233127" font-size="46" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="800">1</text>
+  <text x="1010" y="506" fill="#5D6A5D" font-size="24" font-family="Avenir Next, Segoe UI, sans-serif">shared goal</text>
+
+  <text x="120" y="660" fill="#D06A3D" font-size="18" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="800" letter-spacing="3">THIS WEEK</text>
+  <text x="120" y="720" fill="#233127" font-size="46" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="800">Week 1: Strong Start</text>
+  <text x="120" y="760" fill="#5D6A5D" font-size="26" font-family="Avenir Next, Segoe UI, sans-serif">Breakfast, lunch, and dinner are all picked from our shared meal list so planning stays simple.</text>
+
+  <rect x="120" y="805" width="380" height="165" rx="24" fill="rgba(255,250,243,0.92)" stroke="rgba(35,49,39,0.12)" filter="url(#shadow)"/>
+  <rect x="530" y="805" width="380" height="165" rx="24" fill="rgba(255,250,243,0.92)" stroke="rgba(35,49,39,0.12)" filter="url(#shadow)"/>
+  <rect x="940" y="805" width="380" height="165" rx="24" fill="rgba(255,250,243,0.92)" stroke="rgba(35,49,39,0.12)" filter="url(#shadow)"/>
+  <text x="155" y="865" fill="#233127" font-size="30" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="700">Breakfast</text>
+  <text x="155" y="915" fill="#5D6A5D" font-size="27" font-family="Avenir Next, Segoe UI, sans-serif">Overnight Oats with Berries</text>
+  <text x="565" y="865" fill="#233127" font-size="30" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="700">Lunch</text>
+  <text x="565" y="915" fill="#5D6A5D" font-size="27" font-family="Avenir Next, Segoe UI, sans-serif">Turkey Avocado Wrap</text>
+  <text x="975" y="865" fill="#233127" font-size="30" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="700">Dinner</text>
+  <text x="975" y="915" fill="#5D6A5D" font-size="27" font-family="Avenir Next, Segoe UI, sans-serif">Salmon Rice Bowl</text>
+
+  <text x="120" y="1070" fill="#D06A3D" font-size="18" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="800" letter-spacing="3">MEAL LIBRARY</text>
+  <text x="120" y="1130" fill="#233127" font-size="46" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="800">Balanced meals we can remix each week</text>
+
+  <rect x="120" y="1175" width="380" height="340" rx="24" fill="rgba(255,250,243,0.92)" stroke="rgba(35,49,39,0.12)" filter="url(#shadow)"/>
+  <rect x="530" y="1175" width="380" height="340" rx="24" fill="rgba(255,250,243,0.92)" stroke="rgba(35,49,39,0.12)" filter="url(#shadow)"/>
+  <rect x="940" y="1175" width="380" height="340" rx="24" fill="rgba(255,250,243,0.92)" stroke="rgba(35,49,39,0.12)" filter="url(#shadow)"/>
+
+  <text x="150" y="1220" fill="#D06A3D" font-size="16" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="700" letter-spacing="2">BREAKFAST</text>
+  <text x="150" y="1265" fill="#233127" font-size="34" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="800">Overnight Oats with Berries</text>
+  <text x="150" y="1315" fill="#274734" font-size="22" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="700">10 min  •  14g protein  •  350 cal</text>
+  <rect x="150" y="1340" width="110" height="34" rx="17" fill="rgba(63,107,79,0.10)"/>
+  <rect x="270" y="1340" width="90" height="34" rx="17" fill="rgba(63,107,79,0.10)"/>
+  <rect x="370" y="1340" width="105" height="34" rx="17" fill="rgba(63,107,79,0.10)"/>
+  <text x="172" y="1363" fill="#274734" font-size="17" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="700">high-fiber</text>
+  <text x="295" y="1363" fill="#274734" font-size="17" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="700">quick</text>
+  <text x="389" y="1363" fill="#274734" font-size="17" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="700">vegetarian</text>
+  <text x="150" y="1415" fill="#5D6A5D" font-size="22" font-family="Avenir Next, Segoe UI, sans-serif">Easy to prep the night before and</text>
+  <text x="150" y="1446" fill="#5D6A5D" font-size="22" font-family="Avenir Next, Segoe UI, sans-serif">perfect for busy mornings.</text>
+
+  <text x="560" y="1220" fill="#D06A3D" font-size="16" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="700" letter-spacing="2">BREAKFAST / LUNCH</text>
+  <text x="560" y="1265" fill="#233127" font-size="34" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="800">Egg and Spinach Wrap</text>
+  <text x="560" y="1315" fill="#274734" font-size="22" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="700">12 min  •  20g protein  •  390 cal</text>
+  <rect x="560" y="1340" width="135" height="34" rx="17" fill="rgba(63,107,79,0.10)"/>
+  <rect x="705" y="1340" width="90" height="34" rx="17" fill="rgba(63,107,79,0.10)"/>
+  <rect x="805" y="1340" width="110" height="34" rx="17" fill="rgba(63,107,79,0.10)"/>
+  <text x="581" y="1363" fill="#274734" font-size="17" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="700">high-protein</text>
+  <text x="730" y="1363" fill="#274734" font-size="17" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="700">quick</text>
+  <text x="829" y="1363" fill="#274734" font-size="17" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="700">meal-prep</text>
+  <text x="560" y="1415" fill="#5D6A5D" font-size="22" font-family="Avenir Next, Segoe UI, sans-serif">A flexible meal that works well for</text>
+  <text x="560" y="1446" fill="#5D6A5D" font-size="22" font-family="Avenir Next, Segoe UI, sans-serif">breakfast or lunch.</text>
+
+  <text x="970" y="1220" fill="#D06A3D" font-size="16" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="700" letter-spacing="2">LUNCH</text>
+  <text x="970" y="1265" fill="#233127" font-size="34" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="800">Turkey Avocado Wrap</text>
+  <text x="970" y="1315" fill="#274734" font-size="22" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="700">15 min  •  28g protein  •  450 cal</text>
+  <rect x="970" y="1340" width="135" height="34" rx="17" fill="rgba(63,107,79,0.10)"/>
+  <rect x="1115" y="1340" width="110" height="34" rx="17" fill="rgba(63,107,79,0.10)"/>
+  <text x="991" y="1363" fill="#274734" font-size="17" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="700">high-protein</text>
+  <text x="1140" y="1363" fill="#274734" font-size="17" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="700">portable</text>
+  <text x="970" y="1415" fill="#5D6A5D" font-size="22" font-family="Avenir Next, Segoe UI, sans-serif">A satisfying lunch that is easy to</text>
+  <text x="970" y="1446" fill="#5D6A5D" font-size="22" font-family="Avenir Next, Segoe UI, sans-serif">take on the go.</text>
+
+  <rect x="120" y="1605" width="585" height="270" rx="24" fill="rgba(255,250,243,0.92)" stroke="rgba(35,49,39,0.12)" filter="url(#shadow)"/>
+  <rect x="735" y="1605" width="585" height="270" rx="24" fill="rgba(255,250,243,0.92)" stroke="rgba(35,49,39,0.12)" filter="url(#shadow)"/>
+
+  <text x="155" y="1660" fill="#D06A3D" font-size="18" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="800" letter-spacing="3">WHY THIS SITE EXISTS</text>
+  <text x="155" y="1720" fill="#233127" font-size="42" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="800">Keep the journey visible</text>
+  <text x="155" y="1778" fill="#5D6A5D" font-size="25" font-family="Avenir Next, Segoe UI, sans-serif">The goal is not perfection. It is consistency,</text>
+  <text x="155" y="1812" fill="#5D6A5D" font-size="25" font-family="Avenir Next, Segoe UI, sans-serif">shared momentum, and having one place where</text>
+  <text x="155" y="1846" fill="#5D6A5D" font-size="25" font-family="Avenir Next, Segoe UI, sans-serif">everyone can see the plan.</text>
+
+  <text x="770" y="1660" fill="#D06A3D" font-size="18" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="800" letter-spacing="3">HEALTH TIPS</text>
+  <text x="770" y="1720" fill="#233127" font-size="42" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="800">Friendly reminders from the group</text>
+  <text x="770" y="1785" fill="#233127" font-size="24" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="700">Sleep:</text>
+  <text x="845" y="1785" fill="#5D6A5D" font-size="24" font-family="Avenir Next, Segoe UI, sans-serif">Try to keep a consistent bedtime.</text>
+  <text x="770" y="1830" fill="#233127" font-size="24" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="700">Hydration:</text>
+  <text x="895" y="1830" fill="#5D6A5D" font-size="24" font-family="Avenir Next, Segoe UI, sans-serif">Start each morning with water.</text>
+  <text x="770" y="1875" fill="#233127" font-size="24" font-family="Avenir Next, Segoe UI, sans-serif" font-weight="700">Movement:</text>
+  <text x="895" y="1875" fill="#5D6A5D" font-size="24" font-family="Avenir Next, Segoe UI, sans-serif">Take a short walk after dinner.</text>
+</svg>

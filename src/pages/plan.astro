@@ -1,0 +1,24 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PlanWeekCard from "../components/PlanWeekCard.astro";
+import meals from "../data/meals.json";
+import plans from "../data/weekly-plans.json";
+
+const mealMap = Object.fromEntries(meals.map((meal) => [meal.id, { name: meal.name }]));
+---
+
+<BaseLayout title="Weekly Plan | Better Together">
+  <section class="section-block page-intro">
+    <p class="eyebrow">Weekly plan</p>
+    <h1>Twelve weeks of intentional meals</h1>
+    <p>
+      Each week keeps the structure simple: breakfast, lunch, and dinner are chosen from the shared meal library so everyone can stay aligned.
+    </p>
+  </section>
+
+  <section class="stack">
+    {plans.map((plan) => (
+      <PlanWeekCard plan={plan} mealMap={mealMap} />
+    ))}
+  </section>
+</BaseLayout>

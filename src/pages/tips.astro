@@ -1,0 +1,17 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TipsTable from "../components/TipsTable.astro";
+import tips from "../data/health-tips.json";
+---
+
+<BaseLayout title="Health Tips | Better Together">
+  <section class="section-block page-intro">
+    <p class="eyebrow">Health tips</p>
+    <h1>Shared wisdom for the three-month journey</h1>
+    <p>
+      This table is a lightweight place to share small habits, reminders, and practical ideas that help the group feel better.
+    </p>
+  </section>
+
+  <TipsTable tips={tips} />
+</BaseLayout>

@@ -1,0 +1,68 @@
+[
+  {
+    "week": 1,
+    "startDate": "2026-04-06",
+    "theme": "Strong Start",
+    "breakfast": [
+      "overnight-oats-berries",
+      "egg-spinach-wrap",
+      "overnight-oats-berries",
+      "egg-spinach-wrap",
+      "overnight-oats-berries",
+      "egg-spinach-wrap",
+      "overnight-oats-berries"
+    ],
+    "lunch": [
+      "turkey-avocado-wrap",
+      "quinoa-chickpea-salad",
+      "turkey-avocado-wrap",
+      "quinoa-chickpea-salad",
+      "turkey-avocado-wrap",
+      "egg-spinach-wrap",
+      "quinoa-chickpea-salad"
+    ],
+    "dinner": [
+      "salmon-rice-bowl",
+      "chicken-stir-fry",
+      "salmon-rice-bowl",
+      "chicken-stir-fry",
+      "salmon-rice-bowl",
+      "chicken-stir-fry",
+      "salmon-rice-bowl"
+    ],
+    "notes": "Keep prep light and focus on consistency over perfection."
+  },
+  {
+    "week": 2,
+    "startDate": "2026-04-13",
+    "theme": "More Variety",
+    "breakfast": [
+      "egg-spinach-wrap",
+      "overnight-oats-berries",
+      "egg-spinach-wrap",
+      "overnight-oats-berries",
+      "egg-spinach-wrap",
+      "overnight-oats-berries",
+      "egg-spinach-wrap"
+    ],
+    "lunch": [
+      "quinoa-chickpea-salad",
+      "turkey-avocado-wrap",
+      "egg-spinach-wrap",
+      "turkey-avocado-wrap",
+      "quinoa-chickpea-salad",
+      "turkey-avocado-wrap",
+      "egg-spinach-wrap"
+    ],
+    "dinner": [
+      "chicken-stir-fry",
+      "salmon-rice-bowl",
+      "chicken-stir-fry",
+      "salmon-rice-bowl",
+      "chicken-stir-fry",
+      "salmon-rice-bowl",
+      "chicken-stir-fry"
+    ],
+    "notes": "Rotate your favorites and make room for a little novelty."
+  }
+]

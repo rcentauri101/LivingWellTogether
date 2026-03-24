@@ -1,0 +1,75 @@
+---
+import Hero from "../components/Hero.astro";
+import MealCard from "../components/MealCard.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import meals from "../data/meals.json";
+import plans from "../data/weekly-plans.json";
+import tips from "../data/health-tips.json";
+
+const currentPlan = plans[0];
+const featuredMeals = meals.slice(0, 3);
+const featuredTips = tips.slice(0, 3);
+---
+
+<BaseLayout title="Better Together Meal Plan">
+  <Hero
+    eyebrow="90-day wellness journey"
+    title="Eat well, plan ahead, and keep each other moving."
+    text="A shared static site for meal planning, friendly accountability, and practical health tips over the next three months."
+  />
+
+  <section class="section-block">
+    <div class="section-heading">
+      <p class="eyebrow">This week</p>
+      <h2>Week {currentPlan.week}: {currentPlan.theme}</h2>
+      <p>Breakfast, lunch, and dinner are all picked from our shared meal list so planning stays simple.</p>
+    </div>
+    <div class="snapshot-grid">
+      <article class="panel snapshot-card">
+        <h3>Breakfast</h3>
+        <p>{meals.find((meal) => meal.id === currentPlan.breakfast[0])?.name}</p>
+      </article>
+      <article class="panel snapshot-card">
+        <h3>Lunch</h3>
+        <p>{meals.find((meal) => meal.id === currentPlan.lunch[0])?.name}</p>
+      </article>
+      <article class="panel snapshot-card">
+        <h3>Dinner</h3>
+        <p>{meals.find((meal) => meal.id === currentPlan.dinner[0])?.name}</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section-block">
+    <div class="section-heading">
+      <p class="eyebrow">Meal library</p>
+      <h2>Balanced meals we can remix each week</h2>
+    </div>
+    <div class="cards-grid">
+      {featuredMeals.map((meal) => (
+        <MealCard meal={meal} />
+      ))}
+    </div>
+  </section>
+
+  <section class="section-block two-up">
+    <article class="panel journey-card">
+      <p class="eyebrow">Why this site exists</p>
+      <h2>Keep the journey visible</h2>
+      <p>
+        The goal is not perfection. It is consistency, shared momentum, and having one place where everyone can see the plan.
+      </p>
+    </article>
+    <article class="panel tips-preview">
+      <p class="eyebrow">Health tips</p>
+      <h2>Friendly reminders from the group</h2>
+      <ul class="tips-list">
+        {featuredTips.map((tip) => (
+          <li>
+            <strong>{tip.category}:</strong> {tip.tip}
+          </li>
+        ))}
+      </ul>
+    </article>
+  </section>
+</BaseLayout>

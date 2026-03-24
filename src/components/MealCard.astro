@@ -1,0 +1,38 @@
+---
+interface Meal {
+  id: string;
+  name: string;
+  mealType: string[];
+  tags: string[];
+  prepTime: number;
+  protein: number;
+  calories: number;
+  ingredients: string[];
+  notes: string;
+}
+
+interface Props {
+  meal: Meal;
+}
+
+const { meal } = Astro.props;
+---
+
+<article class="meal-card panel">
+  <div class="meal-card-head">
+    <p class="meal-type">{meal.mealType.join(" / ")}</p>
+    <h3>{meal.name}</h3>
+  </div>
+  <div class="meal-metrics">
+    <span>{meal.prepTime} min</span>
+    <span>{meal.protein}g protein</span>
+    <span>{meal.calories} cal</span>
+  </div>
+  <div class="tag-row">
+    {meal.tags.map((tag) => (
+      <span class="tag">{tag}</span>
+    ))}
+  </div>
+  <p class="meal-notes">{meal.notes}</p>
+  <p class="meal-ingredients">{meal.ingredients.join(" • ")}</p>
+</article>

@@ -1,0 +1,30 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import MealCard from "../components/MealCard.astro";
+import meals from "../data/meals.json";
+---
+
+<BaseLayout title="Meals | Better Together">
+  <section class="section-block page-intro">
+    <p class="eyebrow">Meals</p>
+    <h1>Our shared recipe bench</h1>
+    <p>
+      This is the master list we pull from each week. As the journey grows, we can add more meals, tags, and notes without changing the page structure.
+    </p>
+  </section>
+
+  <section class="filter-strip panel">
+    <div>
+      <strong>Meal types:</strong> breakfast, lunch, dinner
+    </div>
+    <div>
+      <strong>Common tags:</strong> quick, high-protein, meal-prep, vegetarian
+    </div>
+  </section>
+
+  <section class="cards-grid">
+    {meals.map((meal) => (
+      <MealCard meal={meal} />
+    ))}
+  </section>
+</BaseLayout>

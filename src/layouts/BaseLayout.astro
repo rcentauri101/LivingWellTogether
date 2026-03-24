@@ -1,0 +1,41 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const {
+  title,
+  description = "A shared three-month meal plan and wellness journey."
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="brand" href={`${Astro.base}/`}>
+          Better Together
+        </a>
+        <nav class="site-nav" aria-label="Primary">
+          <a href={`${Astro.base}/`}>Home</a>
+          <a href={`${Astro.base}/meals/`}>Meals</a>
+          <a href={`${Astro.base}/plan/`}>Weekly Plan</a>
+          <a href={`${Astro.base}/tips/`}>Health Tips</a>
+        </nav>
+      </header>
+      <main>
+        <slot />
+      </main>
+    </div>
+  </body>
+</html>

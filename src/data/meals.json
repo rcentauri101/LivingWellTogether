@@ -1,0 +1,100 @@
+[
+  {
+    "id": "overnight-oats-berries",
+    "name": "Overnight Oats with Berries",
+    "mealType": ["breakfast"],
+    "tags": ["high-fiber", "quick", "vegetarian"],
+    "prepTime": 10,
+    "protein": 14,
+    "calories": 350,
+    "ingredients": [
+      "rolled oats",
+      "Greek yogurt",
+      "berries",
+      "chia seeds"
+    ],
+    "notes": "Easy to prep the night before and perfect for busy mornings."
+  },
+  {
+    "id": "egg-spinach-wrap",
+    "name": "Egg and Spinach Wrap",
+    "mealType": ["breakfast", "lunch"],
+    "tags": ["high-protein", "quick", "meal-prep"],
+    "prepTime": 12,
+    "protein": 20,
+    "calories": 390,
+    "ingredients": [
+      "eggs",
+      "spinach",
+      "whole wheat wrap",
+      "feta"
+    ],
+    "notes": "A flexible meal that works well for breakfast or lunch."
+  },
+  {
+    "id": "turkey-avocado-wrap",
+    "name": "Turkey Avocado Wrap",
+    "mealType": ["lunch"],
+    "tags": ["high-protein", "portable"],
+    "prepTime": 15,
+    "protein": 28,
+    "calories": 450,
+    "ingredients": [
+      "whole wheat tortilla",
+      "turkey breast",
+      "avocado",
+      "spinach"
+    ],
+    "notes": "A satisfying lunch that is easy to take on the go."
+  },
+  {
+    "id": "quinoa-chickpea-salad",
+    "name": "Quinoa Chickpea Salad",
+    "mealType": ["lunch", "dinner"],
+    "tags": ["vegetarian", "high-fiber", "meal-prep"],
+    "prepTime": 20,
+    "protein": 18,
+    "calories": 430,
+    "ingredients": [
+      "quinoa",
+      "chickpeas",
+      "cucumber",
+      "tomatoes",
+      "lemon vinaigrette"
+    ],
+    "notes": "Fresh, bright, and easy to batch for multiple days."
+  },
+  {
+    "id": "salmon-rice-bowl",
+    "name": "Salmon Rice Bowl",
+    "mealType": ["dinner"],
+    "tags": ["high-protein", "omega-3", "balanced"],
+    "prepTime": 25,
+    "protein": 34,
+    "calories": 520,
+    "ingredients": [
+      "salmon",
+      "brown rice",
+      "broccoli",
+      "soy-ginger sauce"
+    ],
+    "notes": "Balanced, filling, and strong for recovery nights."
+  },
+  {
+    "id": "chicken-stir-fry",
+    "name": "Chicken Stir-Fry",
+    "mealType": ["dinner"],
+    "tags": ["high-protein", "quick", "balanced"],
+    "prepTime": 30,
+    "protein": 32,
+    "calories": 500,
+    "ingredients": [
+      "chicken breast",
+      "bell peppers",
+      "snap peas",
+      "brown rice",
+      "garlic-ginger sauce"
+    ],
+    "notes": "A colorful weeknight dinner with great leftovers."
+  }
+]

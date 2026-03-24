@@ -1,0 +1,38 @@
+---
+interface Tip {
+  id: string;
+  category: string;
+  tip: string;
+  sharedBy: string;
+  week: number;
+}
+
+interface Props {
+  tips: Tip[];
+}
+
+const { tips } = Astro.props;
+---
+
+<div class="tips-wrap panel">
+  <table class="tips-table">
+    <thead>
+      <tr>
+        <th>Category</th>
+        <th>Tip</th>
+        <th>Shared By</th>
+        <th>Week</th>
+      </tr>
+    </thead>
+    <tbody>
+      {tips.map((tip) => (
+        <tr>
+          <td>{tip.category}</td>
+          <td>{tip.tip}</td>
+          <td>{tip.sharedBy}</td>
+          <td>{tip.week}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>

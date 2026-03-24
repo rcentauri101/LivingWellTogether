@@ -1,0 +1,30 @@
+[
+  {
+    "id": "sleep-consistency",
+    "category": "Sleep",
+    "tip": "Try to keep a consistent bedtime, even on busy weekdays.",
+    "sharedBy": "Rama",
+    "week": 1
+  },
+  {
+    "id": "hydration-start",
+    "category": "Hydration",
+    "tip": "Start each morning with a full glass of water before coffee.",
+    "sharedBy": "Alex",
+    "week": 1
+  },
+  {
+    "id": "walk-after-dinner",
+    "category": "Movement",
+    "tip": "Take a short walk after dinner to help digestion and reset the day.",
+    "sharedBy": "Priya",
+    "week": 2
+  },
+  {
+    "id": "prep-snacks",
+    "category": "Planning",
+    "tip": "Prep healthy snacks in advance so convenience works in your favor.",
+    "sharedBy": "Jordan",
+    "week": 2
+  }
+]
